@@ -14,6 +14,10 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(Factories
   main.cpp
+
+  factorymethod.h
+  abstractfactory.h
+  smartfactory.h
 )
 target_link_libraries(Factories Qt${QT_VERSION_MAJOR}::Core)
 
